@@ -1,7 +1,168 @@
-body {
-    position: relative;
-    width: 1600px;
-    height: 2349px;
-    
+:root {
+    --primary-text-color:
+    --tile-text-color 
+    }
+
+body {color: #757575;
     background: #FFFFFF;
+}
+
+/*шапка*/
+header {
+
+    background: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.list :hover,
+.list :focus {
+    color: #2196F3;
+}
+
+
+/* WebStudio */
+.logo{font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+        
+    color: #2196F3;
+}
+.logo-accent {
+    
+    color: #212121;
+}
+/* контакти */
+.studio { font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+    
+    color: #2196F3;
+}
+.portfo {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+      
+    color: #212121;
+}
+.contact {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.mail { font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+}
+.telefon {font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+/* секція для замовлення послуги */
+.section {
+              
+        background: #2F303A;
+}
+.section-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.buttons {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/*особливості*/
+/*прихований заголовок*/
+.specifics {
+    color: #FFFFFF;
+}
+/*прибрані кнопки*/
+.list-specifics{
+        list-style: none;
+    }
+.list-work {
+    list-style: none;
+
+/*заголовки*/
+
+.advantage {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+/*абзац особливостей*/
+.description-advantage {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*чим займаємося*/
+.work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+/*команда*/
+.work-team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+
+
+
+footer {
+    
+    
+    background: #2F303A;
 }
