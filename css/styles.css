@@ -9,13 +9,16 @@ body {color: #757575;
 
 /*шапка*/
 header {
-
+    
     background: #FFFFFF;
+}
+.link {
+    text-decoration: none;
 }
 
 .list {
     list-style: none;
-}
+    }
 
 .list :hover,
 .list :focus {
