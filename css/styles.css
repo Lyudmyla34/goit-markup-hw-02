@@ -1,20 +1,13 @@
 :root {
-    --primary-text-color:
-    --tile-text-color 
+    -accent-color: #2196F3;
+    --the-second-color: #FFFFFF;
     }
 
-body {font-family: 'Roboto';
-    font-size: 14px;
-    color: #757575;
-    background: #FFFFFF;
-
+body {font-family: 
 }
 
 /*шапка*/
-header {
-    
-    background: #FFFFFF;
-}
+
 .link {
     text-decoration: none;
 }
@@ -32,7 +25,7 @@ header {
 /* WebStudio */
 .logo{font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 0,83;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -46,7 +39,7 @@ letter-spacing: 0.03em;
 /* контакти */
 .studio { font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 0.87;
 letter-spacing: 0.02em;
     
     color: #2196F3;
@@ -54,7 +47,7 @@ letter-spacing: 0.02em;
 .portfo {
     font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 087,;
 letter-spacing: 0.02em;
       
     color: #212121;
@@ -63,7 +56,7 @@ letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0,87px;
     letter-spacing: 0.02em;
     
     color: #212121;
@@ -71,7 +64,7 @@ letter-spacing: 0.02em;
 .mail { font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,87;
 letter-spacing: 0.02em;
 
 color: #2196F3;
@@ -80,7 +73,7 @@ color: #2196F3;
 .telefon {font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,87;
 letter-spacing: 0.02em;
 
 color: #757575;
@@ -94,7 +87,7 @@ color: #757575;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 0,73;
     /* or 136% */
     
     text-align: center;
@@ -132,7 +125,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 0,87;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -144,7 +137,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 0,84;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -156,7 +149,7 @@ color: #212121;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0,85;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -172,7 +165,7 @@ color: #212121;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0,85;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -186,7 +179,7 @@ color: #212121;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0,84;
     /* identical to box height */
     
     text-align: center;
@@ -200,7 +193,7 @@ color: #212121;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0,84;
     /* identical to box height */
     
     text-align: center;
@@ -219,7 +212,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -231,7 +224,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -243,7 +236,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,71;
         /* or 171% */
         
         letter-spacing: 0.03em;
@@ -256,7 +249,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,71;
         /* or 171% */
         
         letter-spacing: 0.03em;
@@ -269,7 +262,7 @@ footer {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1,71;
         /* or 171% */
         
         letter-spacing: 0.03em;
@@ -299,7 +292,7 @@ footer {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,63;
     /* identical to box height, or 162% */
     
     text-align: center;
@@ -318,7 +311,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
     
     letter-spacing: 0.06em;
