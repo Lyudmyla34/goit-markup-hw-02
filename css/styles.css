@@ -3,9 +3,10 @@
     --the-second-color: #FFFFFF;
     }
 
-body {font-family: 
-}
+body {font-family:Roboto;
+    font-size: 14px;
 
+    }
 /*шапка*/
 
 .link {
