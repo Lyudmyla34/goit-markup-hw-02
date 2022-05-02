@@ -286,20 +286,7 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-.all {
-        
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,63;
-    /* identical to box height, or 162% */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
-}
+
 .services {
     color: #FFFFFF;
 }
