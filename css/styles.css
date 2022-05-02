@@ -1,6 +1,7 @@
 :root {
     -accent-color: #2196F3;
     --the-second-color: #FFFFFF;
+    color: #212121;
     }
 
 body {font-family:Roboto;
