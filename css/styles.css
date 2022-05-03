@@ -13,16 +13,14 @@ body {
 }
 /*шапка*/
 
-.link 
- {   
+.link {
   text-decoration: none;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
 
-.list:hover 
-.list:focus {
+.list:hover .list:focus {
   color: var(--accent-colorw);
 }
 
@@ -44,9 +42,8 @@ body {
 }
 /* контакти */
 .studio:hover,
-.studio:focus 
-{
-    color: var(--accent-color)
+.studio:focus {
+  color: var(--accent-color);
 }
 .studio {
   font-family: "Roboto";
@@ -60,7 +57,7 @@ body {
 }
 .portfo:hover,
 .portfo:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 .portfo {
   font-weight: 500;
@@ -72,7 +69,7 @@ body {
 }
 .contact:hover,
 .contact:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 .contact {
   font-style: normal;
@@ -85,7 +82,7 @@ body {
 }
 .mail:hover,
 .mail:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 .mail {
   font-style: normal;
@@ -98,7 +95,7 @@ body {
 }
 .telefon:hover,
 .telefon:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 .telefon {
   font-style: normal;
@@ -199,10 +196,10 @@ body {
 
 /*команда*/
 .our-team {
-    background: #F5F4FA;
+  background: #f5f4fa;
 }
 .card {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 .work-team {
   font-family: "Roboto";
@@ -314,7 +311,7 @@ footer {
 /* ПОРТФОЛІО */
 .studio-porf:hover,
 .studio-porf:focus {
-    color: var(--accent-color)
+  color: var(--accent-color);
 }
 .studio-porf {
   font-family: "Roboto";
@@ -339,13 +336,13 @@ footer {
 
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
-    color: var(--background-color);
-    background-color: var(--accent-color)
+  color: var(--background-color);
+  background-color: var(--accent-color);
 }
 .buttons-portfolio {
-    color: var(--primary-text-second-color);
-    background: #F5F4FA;
-    border-radius: 4px;
+  color: var(--primary-text-second-color);
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .services {
