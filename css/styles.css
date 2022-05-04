@@ -30,7 +30,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -50,7 +50,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
@@ -62,7 +62,7 @@ body {
 .portfo {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-second-color);
@@ -75,7 +75,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-second-color);
@@ -88,7 +88,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
@@ -101,7 +101,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-color);
@@ -115,7 +115,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -127,7 +127,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   /* identical to box height, or 188% */
 
   display: flex;
@@ -159,7 +159,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -171,7 +171,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -184,7 +184,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-second-color);
@@ -206,7 +206,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -220,7 +220,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   /* identical to box height */
 
   text-align: center;
@@ -234,7 +234,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   /* identical to box height */
 
   text-align: center;
@@ -251,7 +251,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -263,7 +263,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   /* identical to box height */
 
   letter-spacing: 0.03em;
@@ -275,7 +275,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -283,24 +283,35 @@ footer {
   color: var(--background-color);
   list-style: none;
 }
+.mail-footer:hover
+.mail-footer:focus
+.mail-footer:active
+{
+  color: var(--accent-color);
+}
 .mail-footer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);;
 }
+.phone-footer:hover 
+.phone-footer:focus {
+  color: var(--accent-color);
+}
+
 .phone-footer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -318,7 +329,7 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--primary-text-second-color);
@@ -328,7 +339,7 @@ footer {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
@@ -343,6 +354,7 @@ footer {
   color: var(--primary-text-second-color);
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .services {
